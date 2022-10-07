@@ -7,4 +7,4 @@
 https://mbti-halloween.bubbleapps.io/version-test 
 
 2. 혼자 연습
-https://work-in-koreauniv.bubbleapps.io/version-test 
+https://work-in-koreauniv.bubbleapps.io/version-test/intro 
