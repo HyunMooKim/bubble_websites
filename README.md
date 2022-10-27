@@ -4,7 +4,7 @@
 이것저것 만들어 보는 중...ing..
 
 
-1. https://mbti-halloween.bubbleapps.io/version-test
+1. https://mbti-halloween.bubbleapps.io/version-test?debug_mode=true
 팀플- 기능 구현, 개발을 맡았다. 
 
 설명: MBTI 기반 심리 검사를 한 후, 각자에게 맞는 유형의 할로윈 코스튬을 추천해주는 사이트.
@@ -39,3 +39,10 @@
 한계: bubble.io 의 무료버전은 최대 데이터가 200개이다. 
 사실상 게시판 전체 글을 200개로 유지하는 사이트는 존재 가치가 굉장히 떨어진다.
 따라서 기능 구현 후 배포를 못한다는 생각에 결국 흥미가 떨어졌다...
+
+
+3. https://youtubecloning.bubbleapps.io/version-test
+  
+  설명: 유투브 클로닝. API를 잘 할줄 아는 형님의 도움을 받아 연습했다. 
+  데이터타입: 전부 API로 데이터를 받아왔다
+  
