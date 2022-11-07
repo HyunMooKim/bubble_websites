@@ -3,7 +3,7 @@
 2022.9월 bubble.io를 시작했다.
 이것저것 만들어 보는 중...ing..
 
-1.심리검사 사이트 https://mbti-halloween.bubbleapps.io/version-test?debug_mode=true
+1. 심리검사 사이트 https://mbti-halloween.bubbleapps.io/version-test?debug_mode=true
 팀플- 기능 구현, 개발을 맡았다. 
 
 설명: MBTI 기반 심리 검사를 한 후, 각자에게 맞는 유형의 할로윈 코스튬을 추천해주는 사이트.
@@ -24,7 +24,7 @@
 휴대폰 기종에 따른 문제로 보이기도 하고, HTML 헤더 파일이 페이지로드가 완료되지 않았는데 읽히는 문제로 보이기도 한다.
 
 
-2.간단한 게시판 연습 https://work-in-koreauniv.bubbleapps.io/version-test/intro 
+2. 간단한 게시판 연습 https://work-in-koreauniv.bubbleapps.io/version-test/intro 
 설명: 배포용은 아니고, 혼자 bubble.io 툴을 공부할 때 만들어 본 근로장학 근무지 정보공유 사이트이다. 에브리타임 게시판 기능을 참고했다.
 
 데이터 타입 - 게시판{작성자, 댓글{작성자, 대댓글{작성자}}'s list} 
@@ -43,7 +43,7 @@
   설명: 유투브 클로닝. API를 잘 할줄 아는 형님의 도움을 받아 연습했다. 
   데이터타입: 전부 API로 데이터를 받아왔다
   
-4.다음 프로젝트 진행중...12월 전에 업로드 예정
+4. 다음 프로젝트 진행중...12월 전에 업로드 예정
   
   
 
