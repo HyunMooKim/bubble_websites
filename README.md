@@ -22,6 +22,34 @@
 
 한계: 카카오톡 공유 API를 사용했는데, 어떤 이유에선지 될 때가 있고 안될 때가 있다. 
 휴대폰 기종에 따른 문제로 보이기도 하고, HTML 헤더 파일이 페이지로드가 완료되지 않았는데 읽히는 문제로 보이기도 한다.
+사용된 코드:
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<script>window.Kakao.init("JAVA 앱키")</script>
+
+<script>
+  Kakao.Share.createDefaultButton({
+    container: '#kakaotalk-sharing-btn',
+    objectType: 'feed',
+    content: {
+      title: '이번 할로윈에 뭐 입지?',
+      description: '#MBTI #할로윈 #코스튬 추천',
+      imageUrl: 'https://ifh.cc/g/scMJKr.jpg',
+      link: {
+        mobileWebUrl: 'https://mbti-halloween.bubbleapps.io/version-test',
+        webUrl: 'https://mbti-halloween.bubbleapps.io/version-test',
+      },
+    },
+    buttons: [
+      {
+        title: '코스튬 추천 받기',
+        link: {
+          mobileWebUrl: '', - 동적 자료: 현재 url
+          webUrl: '',',    
+        },
+      }
+    ],
+  });
+</script>
 
 
 2. 간단한 게시판 연습 https://work-in-koreauniv.bubbleapps.io/version-test/intro 
