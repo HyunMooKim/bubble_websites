@@ -72,6 +72,42 @@
   데이터타입: 전부 API로 데이터를 받아왔다
   
 4. 다음 프로젝트 진행중...12월 전에 업로드 예정
+'
+
+꽃가루 날리기:
+html head에 이거
+<script src="https://tistory4.daumcdn.net/tistory/3134841/skin/images/confetti_v2.js"></script>
+    
+<script>
+$(document).ready(function(){  
+  //티스토리 공감버튼 이벤트
+  function reAction(){
+  	$("#startButton").trigger("click");
+  	setTimeout(function(){
+  		$("#stopButton").trigger("click");
+  	}, 6000);
+  }
+  
+      reAction();
+});
+</script>
+
+
+
+html body 에 메인 소스
+<script src="https://tistory4.daumcdn.net/tistory/3134841/skin/images/confetti_v2.js"></script>
+
+<style>
+	canvas{z-index:10;left:0;right:0;pointer-events: none;position: fixed;top: 0;transform: scale(1.1);}
+</style>
+
+<div class="buttonContainer">
+	<button class="canvasBtn" id="startButton">꽃가루 휘날리기</button>	
+</div>
+
+<canvas id="canvas"></canvas>
+
+
   
   
 
